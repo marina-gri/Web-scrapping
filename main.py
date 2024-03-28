@@ -29,7 +29,6 @@ for vacancy_tag in vacancy_tags:
     link = a_tag['href']
     company = company_tag.text.strip()
     city = city_tag.text
-    print(city)
 
     some_list = [city]
     print(some_list)
